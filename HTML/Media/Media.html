@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Example</title>
+</head>
+<body>
+
+    <!-- IMAGE SECTION -->
+    <h1>Image</h1>
+
+    <!-- Local Image -->
+    <img src="margo.jpg" width="400" alt="My Image">
+
+    <br><br>
+
+    <!-- Online Image -->
+    <img src="https://i.ytimg.com/vi/g5CGSGIWci0/hq720.jpg" 
+         width="400" alt="Online Image">
+
+    <br><br>
+
+    <!-- Clickable Image (Kodnest) -->
+    <h2>Kodnest Logo</h2>
+    <a href="https://www.kodnest.com" target="_blank">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJrGctBhFNuke6pgbReVEHEUgs0FsRpxE"
+             width="200" alt="Kodnest Logo">
+    </a>
+
+    <!-- VIDEO SECTION -->
+    <h2>Video</h2>
+
+    <!-- Local Video -->
+    <video width="500" controls>
+        <source src="video.mp4" type="video/mp4">
+        Your browser does not support video.
+    </video>
+
+    <br><br>
+
+    <!-- Online Video with autoplay -->
+    <video 
+        src="https://production-inventory-service.s3.ap-south-1.amazonaws.com/kodnest-documents/assets/closeup_of_natural_weather_phenomenon_6891973.mp4" 
+        controls 
+        loop 
+        muted
+        autoplay
+        poster="https://production-inventory-service.s3.ap-south-1.amazonaws.com/kodnest-documents/assets/sunrise.png" 
+        height="200" 
+        width="300">
+        Your browser does not support the video tag.
+    </video>
+
+    <br><br>
+
+    <!-- AUDIO SECTION -->
+    <h2>Audio</h2>
+
+    <!-- Online Audio -->
+    <audio controls>
+        <source src="https://production-inventory-service.s3.ap-south-1.amazonaws.com/kodnest-documents/assets/audio1.mp3>
+        Your browser does not support audio.
+    </audio>
+
+    <br><br>
+
+    <!-- Optional Local Audio -->
+    <audio controls>
+        <source src="audio.mp3" type="audio/mpeg">
+        Your browser does not support audio.
+    </audio>
+
+</body>
+</html>
