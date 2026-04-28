@@ -3,27 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Media Example</title>
+    <title>Media</title>
 </head>
 <body>
-
-    <!-- IMAGE (from your VS Code folder) -->
     <h1>Image</h1>
-    <img src="margo.jpg" width="400" alt="My Image">
+        <img src="/HTML/Media/margo.jpg" width="50%" height="20%" alt="Margo Image loaded" title="Margo is a Anime ">
+        
+        <img src="https://i.ytimg.com/vi/g5CGSGIWci0/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLABCiBNfZlIxqR6ZLwz-jRVjruTVw" width="600px" height="400px">
 
-    <!-- VIDEO (from your folder) -->
-    <h2>Video</h2>
-    <video width="500" controls>
-        <source src="video.mp4" type="video/mp4">
-        Your browser does not support video.
-    </video>
+        <h2>Kodnest logo</h2>
+        <a href="https://www.kodnest.com">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJrGctBhFNuke6pgbReVEHEUgsoFsRPxE7_A&s">
+        </a>
+    <h2>Video </h2>
+    <hr>
+    <video src="/HTML/Media/MargoVideo.mp4" controls autoplay muted loop 
+    width="600px" height="600px" poster="/HTML/Media/download.jpeg"> Margo Video Playing</video>
 
-    <!-- AUDIO (from online link) -->
-    <h2>Audio</h2>
-    <audio controls>
-        <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg">
-        Your browser does not support audio.
-    </audio>
+    <video src="/HTML/Media/MargoVideo.mp4" controls autoplay muted loop 
+    width="40%" height="40%" poster="/HTML/Media/download.jpeg"> Margo Video Playing </video>
 
+    <h2>audio</h2>
+    <br>
+    <hr>
+    <audio src="https://production-inventory-service.s3.ap-south-1.amazonaws.com/kodnest-documents/assets/audio1.mp3"
+    controls autoplay muted loop></audio>
+    
 </body>
 </html>
