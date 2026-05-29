@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Document Writeln Example</title>
+</head>
+<body>
+
+<script>
+    
+   // var a = 10;
+    //a = 20;
+    //var b = 30;
+    //console.log(a);
+    const a = 20;
+    a = 20; // re-declaration 
+    console.log(a);
+
+    //scope - function var
+    function varvari() {
+        var name = "Sumit";
+        console.log(name);
+    }
+    varvari()
+    //console.log(name); //error
+
+    //scope - block let
+    if(true) {
+        let z = 100;
+        const pi = 3.14;
+        console.log(pi);
+        console.log(z);
+    }
+    //console.log(pi); //error
+    //console.log(z); //error
+</script>
+
+</body>
+</html>

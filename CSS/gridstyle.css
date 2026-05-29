@@ -3,6 +3,7 @@
     padding: 10px;
     display: grid;
     grid-template-columns: 2fr 1fr 200px auto;
+    grid-template-rows: 1fr 4fr;
     /* gap: 10px; */
     /* row-gap: 30px;
     column-gap: 10px; */
